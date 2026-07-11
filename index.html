@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Penumbra · Bar de copas y coctelería de autor en Malasaña, Madrid</title>
+<meta name="description" content="Penumbra — bar de copas y coctelería de autor en Calle del Pez 18, Malasaña. Sesiones de DJ de jueves a domingo. Donde la noche baja la voz." />
+<meta name="theme-color" content="#0B0B14" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 fill=%22%230B0B14%22/><text x=%2250%22 y=%2266%22 font-size=%2258%22 text-anchor=%22middle%22 fill=%22%23FF3D8B%22 font-family=%22Georgia,serif%22>P</text></svg>" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400..900;1,400..900&family=Manrope:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" />
+
+<link rel="preload" as="image" href="assets/img/hero.jpg" fetchpriority="high" />
+<link rel="stylesheet" href="styles.css?v=20260707" />
+</head>
+<body>
+<a class="skip-link" href="#main">Saltar al contenido</a>
+
+<!-- ============================================================
+     SPLASH
+     ============================================================ -->
+<div class="splash" data-splash aria-hidden="true">
+  <div class="splash-inner">
+    <div class="splash-word" aria-hidden="true">
+      <span style="--i:0">P</span><span style="--i:1">E</span><span style="--i:2">N</span><span style="--i:3">U</span><span style="--i:4">M</span><span style="--i:5">B</span><span style="--i:6">R</span><span style="--i:7">A</span>
+    </div>
+    <div class="splash-bar"><span></span></div>
+  </div>
+</div>
+
+<!-- ============================================================
+     CURSOR
+     ============================================================ -->
+<div class="cursor" data-cursor-root aria-hidden="true">
+  <span class="cursor-dot"></span>
+  <span class="cursor-ring"></span>
+  <span class="cursor-label"></span>
+</div>
+
+<!-- Aurora + grano globales -->
+<div class="aurora" data-aurora aria-hidden="true"></div>
+<div class="grain" aria-hidden="true"></div>
+
+<!-- Marca lateral fija -->
+<div class="side-brand" aria-hidden="true">
+  <span class="side-brand-dot"></span>
+  <span class="side-brand-text">ABIERTO · MIÉ &rarr; DOM · 19:00 &rarr; 02:30</span>
+</div>
+
+<!-- ============================================================
+     NAV
+     ============================================================ -->
+<header class="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-logo" data-cursor="mirar">Penumbra</a>
+    <nav class="nav-links" aria-label="Secciones">
+      <a href="#local" data-cursor="leer"><span class="nav-num">01</span> El Local</a>
+      <a href="#cocteles" data-cursor="ver"><span class="nav-num">02</span> Cócteles</a>
+      <a href="#musica" data-cursor="oír"><span class="nav-num">03</span> Música</a>
+      <a href="#galeria" data-cursor="mirar"><span class="nav-num">04</span> Galería</a>
+      <a href="#privados" data-cursor="privado"><span class="nav-num">05</span> Privados</a>
+    </nav>
+    <a href="#reserva" class="btn btn-nav-cta" data-cursor="reservar">Reservar</a>
+    <button class="burger" data-burger aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="mobile-nav" data-mobile-nav aria-hidden="true">
+  <a href="#local"><span class="nav-num">01</span> El Local</a>
+  <a href="#cocteles"><span class="nav-num">02</span> Cócteles</a>
+  <a href="#musica"><span class="nav-num">03</span> Música</a>
+  <a href="#galeria"><span class="nav-num">04</span> Galería</a>
+  <a href="#privados"><span class="nav-num">05</span> Privados</a>
+  <a href="#reserva" class="btn btn-primary">Reservar mesa</a>
+</div>
+
+<main id="main">
+
+  <!-- ============================================================
+       HERO
+       ============================================================ -->
+  <section class="hero" id="top">
+    <div class="hero-bg">
+      <img src="assets/img/hero.jpg" alt="Interior de Penumbra en penumbra, con luz de neón rosa y cian" fetchpriority="high" loading="eager" decoding="sync" />
+      <div class="hero-veil"></div>
+    </div>
+    <div class="hero-inner">
+      <p class="hero-kicker">Bar de copas · Coctelería de autor<br class="hero-kicker-break" /> Malasaña · Madrid</p>
+      <h1 class="hero-title">
+        <span class="hero-title-line hero-title-line--1">Penum</span><span class="hero-title-line hero-title-line--2">bra.</span>
+      </h1>
+      <p class="hero-tagline"><em>Donde la noche baja la voz.</em></p>
+      <div class="hero-ctas">
+        <a href="#reserva" class="btn btn-primary" data-cursor="reservar">Reservar mesa <span class="btn-arrow">&rarr;</span></a>
+        <a href="#cocteles" class="btn btn-ghost" data-cursor="ver">Ver la carta</a>
+      </div>
+    </div>
+    <a class="hero-scroll-hint" href="#local" aria-hidden="true"><span></span></a>
+  </section>
+
+  <!-- Marquee neón -->
+  <div class="marquee marquee-hero" aria-hidden="true">
+    <div class="marquee-track" data-marquee>
+      <span class="marquee-item">Coctelería de autor</span><span class="marquee-dot">·</span>
+      <span class="marquee-item">Sesión de DJ jue &rarr; dom</span><span class="marquee-dot">·</span>
+      <span class="marquee-item">Calle del Pez 18</span><span class="marquee-dot">·</span>
+      <span class="marquee-item">Malasaña · Madrid</span><span class="marquee-dot">·</span>
+      <span class="marquee-item">Aforo íntimo 60 personas</span><span class="marquee-dot">·</span>
+      <span class="marquee-item">Donde la noche baja la voz</span><span class="marquee-dot">·</span>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       01 · EL LOCAL
+       ============================================================ -->
+  <section class="local" id="local">
+    <span class="section-watermark" aria-hidden="true">01</span>
+    <div class="container local-grid">
+      <div class="local-visual" data-reveal>
+        <div class="local-collage">
+          <figure class="local-photo local-photo--1"><img src="assets/img/local-1.jpg" alt="Barra de Penumbra en luz baja, con clientes tomando algo" loading="lazy" decoding="async" /></figure>
+          <figure class="local-photo local-photo--2"><img src="assets/img/local-2.jpg" alt="Copa y botella sobre la mesa de madera de Penumbra" loading="lazy" decoding="async" /></figure>
+          <figure class="local-photo local-photo--3"><img src="assets/img/local-3.jpg" alt="Ambiente nocturno en la calle de Penumbra, Malasaña" loading="lazy" decoding="async" /></figure>
+          <span class="local-ribbon">EST. 2024</span>
+        </div>
+      </div>
+      <div class="local-content">
+        <aside class="local-aside" data-reveal>
+          <span class="local-tag">EST · 2024 · MAD</span>
+          <p class="local-quote">&ldquo;Un sitio para empezar la noche con criterio. Buena copa, buena música, luz baja.&rdquo;</p>
+          <p class="local-meta">Calle del Pez 18 · Malasaña · Madrid</p>
+        </aside>
+        <div class="local-body">
+          <span class="section-kicker" data-reveal>01 · El Local</span>
+          <h2 class="local-title" data-reveal>Un bar para que la noche <em>dure de verdad.</em></h2>
+          <p class="local-lead" data-reveal>Penumbra nació para quien entra a las nueve y no mira el reloj hasta las dos. Terciopelo, latón y luz cálida sobre una barra pensada para conversar de cerca.</p>
+          <p class="local-support" data-reveal>Nada de coctelería de postureo ni discoteca de fin de semana: aquí la música se pone con criterio y la copa se sirve despacio, para que la noche tenga tiempo de bajar la voz.</p>
+          <dl class="local-facts" data-reveal>
+            <div><dt>Aforo</dt><dd>60 personas</dd></div>
+            <div><dt>Apertura</dt><dd>Miércoles a domingo</dd></div>
+            <div><dt>Horario</dt><dd>19:00 &rarr; 02:30</dd></div>
+            <div><dt>Reserva</dt><dd>Recomendada jue&ndash;sáb</dd></div>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       02 · CÓCTELES
+       ============================================================ -->
+  <section class="cocktails" id="cocteles" data-cocktails-section>
+    <span class="section-watermark" aria-hidden="true">02</span>
+    <div class="cocktails-head container">
+      <span class="section-kicker" data-reveal>02 · Carta</span>
+      <h2 class="cocktails-title" data-reveal>Diez copas, dos series: <em>Casa y Temporada.</em></h2>
+      <div class="cocktails-progress">
+        <button type="button" class="cocktails-nav-btn" data-cocktails-prev aria-label="Cóctel anterior" data-cursor="ver">&larr;</button>
+        <span class="cocktails-progress-count"><span data-progress-current>01</span> / <span data-progress-total>10</span></span>
+        <button type="button" class="cocktails-nav-btn" data-cocktails-next aria-label="Cóctel siguiente" data-cursor="ver">&rarr;</button>
+      </div>
+    </div>
+    <div class="cocktails-viewport" data-cocktails-viewport>
+      <div class="cocktails-track" data-cocktails-track data-cursor="arrastrar"></div>
+    </div>
+    <div class="marquee marquee-ingredients" aria-hidden="true">
+      <div class="marquee-track" data-marquee data-ingredients-marquee></div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       03 · MÚSICA
+       ============================================================ -->
+  <section class="music" id="musica">
+    <span class="section-watermark" aria-hidden="true">03</span>
+    <div class="container">
+      <span class="section-kicker" data-reveal>03 · Música</span>
+      <h2 class="music-title" data-reveal>La semana suena <em>distinta cada noche.</em></h2>
+      <div class="sessions" data-sessions></div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       04 · GALERÍA
+       ============================================================ -->
+  <section class="gallery" id="galeria">
+    <span class="section-watermark" aria-hidden="true">04</span>
+    <div class="container gallery-head">
+      <span class="section-kicker" data-reveal>04 · Galería</span>
+      <h2 data-reveal>Humo, cristal y luz baja.</h2>
+    </div>
+    <div class="gallery-lanes" aria-hidden="true">
+      <div class="gallery-lane gallery-lane--fast" data-gallery-lane="1"></div>
+      <div class="gallery-lane gallery-lane--slow" data-gallery-lane="2"></div>
+      <div class="gallery-lane gallery-lane--reverse" data-gallery-lane="3"></div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       05 · EVENTOS PRIVADOS
+       ============================================================ -->
+  <section class="events" id="privados">
+    <span class="section-watermark" aria-hidden="true">05</span>
+    <div class="container">
+      <div class="events-card" data-tilt>
+        <div class="events-bg">
+          <img src="assets/img/events.jpg" alt="Copas brindando en un evento privado nocturno" loading="lazy" decoding="async" />
+          <div class="events-veil"></div>
+        </div>
+        <div class="events-content">
+          <span class="section-kicker" data-reveal>05 · Privados</span>
+          <h2 class="events-title" data-reveal>Cierra Penumbra <em>para los tuyos.</em></h2>
+          <p class="events-copy" data-reveal>Cumpleaños, lanzamientos o una empresa con criterio: privatizamos la sala hasta 60 personas, con carta y sesión a medida.</p>
+          <a class="btn btn-primary" href="https://wa.me/34910223344?text=Hola%20Penumbra%2C%20quiero%20hablar%20sobre%20una%20privatizaci%C3%B3n." target="_blank" rel="noopener" data-cursor="WhatsApp">Hablamos por WhatsApp <span class="btn-arrow">&rarr;</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       06 · RESERVA
+       ============================================================ -->
+  <section class="reserve" id="reserva">
+    <div class="container reserve-grid">
+      <div class="reserve-form-wrap">
+        <span class="section-kicker" data-reveal>06 · Reserva</span>
+        <h2 class="reserve-title" data-reveal>Guárdate una mesa <em>antes de que se llene.</em></h2>
+        <form class="reserve-form" data-reserve-form novalidate>
+          <div class="field">
+            <span class="field-prefix">01</span>
+            <input type="text" name="nombre" placeholder="Nombre" autocomplete="name" required />
+          </div>
+          <div class="field">
+            <span class="field-prefix">02</span>
+            <input type="tel" name="telefono" placeholder="Teléfono" autocomplete="tel" required />
+          </div>
+          <div class="field-split">
+            <div class="field">
+              <span class="field-prefix">03</span>
+              <select name="dia" required>
+                <option value="" disabled selected>Día</option>
+                <option>Miércoles</option>
+                <option>Jueves</option>
+                <option>Viernes</option>
+                <option>Sábado</option>
+                <option>Domingo</option>
+              </select>
+            </div>
+            <div class="field">
+              <span class="field-prefix">04</span>
+              <select name="personas" required>
+                <option value="" disabled selected>Personas</option>
+                <option>1&ndash;2</option>
+                <option>3&ndash;4</option>
+                <option>5&ndash;6</option>
+                <option>7 o más</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <textarea name="nota" placeholder="Nota (opcional)" rows="2"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block" data-cursor="enviar">Enviar reserva <span class="btn-arrow">&rarr;</span></button>
+        </form>
+        <a class="reserve-alt-link" href="https://wa.me/34910223344?text=Hola%20Penumbra%2C%20quiero%20reservar%20mesa." target="_blank" rel="noopener" data-cursor="WhatsApp">&hellip;o más rápido por WhatsApp &rarr;</a>
+      </div>
+      <aside class="reserve-info" data-reveal>
+        <dl>
+          <div><dt>Tel</dt><dd><a href="tel:+34910223344" data-cursor="reservar">910 22 33 44</a></dd></div>
+          <div><dt>Instagram</dt><dd><a href="https://instagram.com/penumbra.madrid" target="_blank" rel="noopener" data-cursor="mirar">@penumbra.madrid</a></dd></div>
+          <div><dt>Dirección</dt><dd>Calle del Pez 18, Malasaña, Madrid<br />Metro Noviciado / Tribunal</dd></div>
+          <div><dt>Horario</dt><dd>Miércoles a domingo<br />19:00 &rarr; 02:30</dd></div>
+        </dl>
+      </aside>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer class="footer">
+  <div class="footer-display" aria-hidden="true">
+    <span>Penumbra</span><span>·</span><span>Penumbra</span><span>·</span><span>Penumbra</span><span>·</span><span>Penumbra</span><span>·</span>
+  </div>
+  <div class="container footer-grid">
+    <div class="footer-col">
+      <h3>Cómo llegar</h3>
+      <p>Calle del Pez 18<br />Malasaña, Madrid</p>
+      <p>Metro Noviciado / Tribunal</p>
+      <div class="footer-map">
+        <iframe src="https://www.google.com/maps?q=Calle+del+Pez+18,+Madrid&output=embed" title="Mapa de Penumbra en Calle del Pez 18, Madrid" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h3>Contacto</h3>
+      <p><a href="tel:+34910223344" data-cursor="reservar">910 22 33 44</a></p>
+      <p><a href="https://wa.me/34910223344" target="_blank" rel="noopener" data-cursor="WhatsApp">WhatsApp</a></p>
+      <p><a href="https://instagram.com/penumbra.madrid" target="_blank" rel="noopener" data-cursor="mirar">@penumbra.madrid</a></p>
+    </div>
+    <div class="footer-col">
+      <h3>Horario</h3>
+      <p>Miércoles a domingo<br />19:00 &rarr; 02:30</p>
+      <p>Aforo íntimo · 60 personas</p>
+      <a href="#reserva" class="btn btn-ghost" data-cursor="reservar">Reservar mesa</a>
+    </div>
+  </div>
+  <div class="footer-legal container">
+    <p>&copy; <span data-year>2026</span> Penumbra · Todos los derechos reservados.</p>
+    <p><a href="assets/credits.json" target="_blank" rel="noopener">Créditos de imágenes</a></p>
+    <a href="#top" class="footer-top" data-back-to-top data-cursor="arriba">&uarr; Volver arriba</a>
+  </div>
+</footer>
+
+<script defer src="lib/gsap.min.js?v=20260707"></script>
+<script defer src="lib/ScrollTrigger.min.js?v=20260707"></script>
+<script defer src="lib/manifest.js?v=20260707"></script>
+<script defer src="main.js?v=20260707"></script>
+</body>
+</html>
